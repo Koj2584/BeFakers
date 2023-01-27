@@ -1,0 +1,462 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'cs' Physical Memory: 16295 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files (x86)\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Koj/Programování/GitHub/Unity/BeFakers/BeFake dash
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56998
+Successfully changed project path to: D:/Koj/Programování/GitHub/Unity/BeFakers/BeFake dash
+D:/Koj/Programování/GitHub/Unity/BeFakers/BeFake dash
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 99.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path D:/Program Files (x86)/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Koj/Programování/GitHub/Unity/BeFakers/BeFake dash/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'D:/Program Files (x86)/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files (x86)/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files (x86)/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files (x86)/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Program Files (x86)/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Program Files (x86)/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Program Files (x86)/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004990 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 94.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.659 seconds
+Domain Reload Profiling:
+	ReloadAssembly (660ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (470ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (110ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (62ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007613 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Koj\Programování\GitHub\Unity\BeFakers\BeFake dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Koj\Programování\GitHub\Unity\BeFakers\BeFake dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 94.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.278 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1279ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (921ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (222.3 KB). Loaded Objects now: 4507.
+Memory consumption went from 150.9 MB to 150.6 MB.
+Total: 3.010900 ms (FindLiveObjects: 0.295100 ms CreateObjectMapping: 0.224400 ms MarkObjects: 2.343700 ms  DeleteObjects: 0.146700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1287952.449964 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.006250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 213.680326 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_02.png
+  artifactKey: Guid(d381750a850b11d43b9269b9bdab346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_02.png using Guid(d381750a850b11d43b9269b9bdab346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf112558996b0b5fd55860207c1855e') in 0.175044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_26.png
+  artifactKey: Guid(09a2b421f8e8f3a4b9fcc5451506ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_26.png using Guid(09a2b421f8e8f3a4b9fcc5451506ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc827d9988e7a9cd3c4df2788df412a1') in 0.012460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_49.png
+  artifactKey: Guid(321be2b1faabd404fa4f52fa8b4bbbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_49.png using Guid(321be2b1faabd404fa4f52fa8b4bbbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341b71d074991bdf35a3ca3b25402813') in 0.011316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_63.png
+  artifactKey: Guid(d30e95b10db49fb40a2eddba3dcf205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_63.png using Guid(d30e95b10db49fb40a2eddba3dcf205a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cccddcd0d5232fc511c1fe58385608') in 0.016918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_54.png
+  artifactKey: Guid(4018127f7a2c6b94b945d49811f4f04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_54.png using Guid(4018127f7a2c6b94b945d49811f4f04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53eb96d9c9957bab87581aa5a150ba4') in 0.011850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_57.png
+  artifactKey: Guid(57a90f7b63a90664cbb4c2a9e2baca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_57.png using Guid(57a90f7b63a90664cbb4c2a9e2baca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c82b1747c116cf244de3bbb91d5d5a0') in 0.011093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_09.png
+  artifactKey: Guid(3f763ca4c6370d1419f8194958f5c6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_09.png using Guid(3f763ca4c6370d1419f8194958f5c6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95acfd2acee49a97b065480cfc232c7') in 0.014028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_69.png
+  artifactKey: Guid(c82956f3014ef4649934acfb6848e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_69.png using Guid(c82956f3014ef4649934acfb6848e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e3adf20439d04dc14c1934a35ea094') in 0.011213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_59.png
+  artifactKey: Guid(198beef4a8b913a4eab3fdd66d035393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_59.png using Guid(198beef4a8b913a4eab3fdd66d035393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01307adac92cdc544d1c7c1a1cb74bf') in 0.010746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_80.png
+  artifactKey: Guid(e4f8f95be633562468709fd9e97ba5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_80.png using Guid(e4f8f95be633562468709fd9e97ba5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44497bb1f4e56717f553bb57da88b4d8') in 0.009347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_88.png
+  artifactKey: Guid(b46231ee2e8f3e148bdb977830eea00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_88.png using Guid(b46231ee2e8f3e148bdb977830eea00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d05ed6beea83194db850749d993002') in 0.008783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_73.png
+  artifactKey: Guid(f0d4fdfdd055cd145bbc951064aeb49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_73.png using Guid(f0d4fdfdd055cd145bbc951064aeb49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c601e013a5e68499648f610d32d7db') in 0.010055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_22.png
+  artifactKey: Guid(a2917a5e185e32a469e0acd53fac6deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_22.png using Guid(a2917a5e185e32a469e0acd53fac6deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b45c7e491020b43d40331d8802689b') in 0.009896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_03.png
+  artifactKey: Guid(4367b037df4cc414da2bd9c88ad9b583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_03.png using Guid(4367b037df4cc414da2bd9c88ad9b583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49428ae8524312e2da976ad18c7e3be7') in 0.011785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_76.png
+  artifactKey: Guid(1ba1a7c18628c144faccc5511910c7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_76.png using Guid(1ba1a7c18628c144faccc5511910c7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790a8cb8731bb44188a87b134e15b1fa') in 0.009409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_40.png
+  artifactKey: Guid(bd889a1e923031b4f8c61806c5b45dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_40.png using Guid(bd889a1e923031b4f8c61806c5b45dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac113d2a9a6686d4a35bfaf1092b9c2b') in 0.009962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_24.png
+  artifactKey: Guid(fbd7a16d3a11be5429f1d831a9da4e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_24.png using Guid(fbd7a16d3a11be5429f1d831a9da4e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01378520016853380af552a066579d13') in 0.009947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_66.png
+  artifactKey: Guid(eb5b986f3a2ecb74298696b2e3feb570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_66.png using Guid(eb5b986f3a2ecb74298696b2e3feb570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf67313d2ebe49b55b931a095ce946d') in 0.009009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_31.png
+  artifactKey: Guid(acbe026faba80ce40a4de10346dd211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_31.png using Guid(acbe026faba80ce40a4de10346dd211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd366374d3e157cc0d2bd105d40ce1476') in 0.009304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_04.png
+  artifactKey: Guid(e0c1a7fa80a5a8d45b973e8a399d5189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_04.png using Guid(e0c1a7fa80a5a8d45b973e8a399d5189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3b5af2310d77aa31527bd4911335c0') in 0.010821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_11.png
+  artifactKey: Guid(079214f624cf76c43808def7140bbe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_11.png using Guid(079214f624cf76c43808def7140bbe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c671b08bbc172dad2864f558466ebee') in 0.010152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_67.png
+  artifactKey: Guid(b76a67444749c3f4891fb1d376f430ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_67.png using Guid(b76a67444749c3f4891fb1d376f430ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a12b41266fc847f8f7c352130f5ddc') in 0.010967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_19.png
+  artifactKey: Guid(b44119bb50c402a4b81b26b19e7ef60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_19.png using Guid(b44119bb50c402a4b81b26b19e7ef60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6747a1201b3632f5e5ec33cb790f00') in 0.008619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_50.png
+  artifactKey: Guid(79fa446cda056e9428cddce4beace1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_50.png using Guid(79fa446cda056e9428cddce4beace1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf41d1a83ae6464646beb97c026c3c6') in 0.009110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_77.png
+  artifactKey: Guid(b30fdf570482e974490f17e1a82f9378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_77.png using Guid(b30fdf570482e974490f17e1a82f9378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e413ee06ddf0afc30928216c9e5cd46') in 0.010390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_13.png
+  artifactKey: Guid(9bc06e89125b043438a6945d618178cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_13.png using Guid(9bc06e89125b043438a6945d618178cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739dd10cee1832e66611c870f56c0fd4') in 0.012381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_60.png
+  artifactKey: Guid(1024a7c63ef57b24fb763c2fbc77a05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_60.png using Guid(1024a7c63ef57b24fb763c2fbc77a05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c99fa05049b2c98ef629ba439ac2848') in 0.010383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_42.png
+  artifactKey: Guid(4b0bd49b7879ac6419b2f6f7fbebda0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_42.png using Guid(4b0bd49b7879ac6419b2f6f7fbebda0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd27b944ea7abc22bff799c7e297ab9') in 0.009553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_85.png
+  artifactKey: Guid(1c74b8c587afb084d8d677a9dffc1e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_85.png using Guid(1c74b8c587afb084d8d677a9dffc1e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3d554ea0683b9957e49e697f3d7393') in 0.009962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_89.png
+  artifactKey: Guid(0f704b633f7d05a42b797dcee936cf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_89.png using Guid(0f704b633f7d05a42b797dcee936cf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa784a70c556886c5359b68324d393e') in 0.010019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_56.png
+  artifactKey: Guid(b2195b45ddfdc57489f10d8195325495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_56.png using Guid(b2195b45ddfdc57489f10d8195325495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29ef30205d493976cf3065e6d889c68') in 0.034685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_72.png
+  artifactKey: Guid(2cfd6126892599942ae0d8a99533f6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_72.png using Guid(2cfd6126892599942ae0d8a99533f6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454196b6327dc3b8ee51d6b5d3e08da1') in 0.010596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_39.png
+  artifactKey: Guid(63d6a2cc9b1852a46bf8099906742e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_39.png using Guid(63d6a2cc9b1852a46bf8099906742e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00343a99d86a8196da5f37ae4e33dcc5') in 0.009236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_23.png
+  artifactKey: Guid(1770c48104987bf4dbc156c3d93aff1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_23.png using Guid(1770c48104987bf4dbc156c3d93aff1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20920fa9c70b3c001cc99292a2ec7f8') in 0.010241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_65.png
+  artifactKey: Guid(a4dd06b73aea58241b69ffc0fef7bbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_65.png using Guid(a4dd06b73aea58241b69ffc0fef7bbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99171677dd6206df36646ddf000e6e9') in 0.009806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_14.png
+  artifactKey: Guid(13ace3776c78ae046a1c32729e00ecad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_14.png using Guid(13ace3776c78ae046a1c32729e00ecad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf54b4508781a582c19079b1a973831f') in 0.010113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_08.png
+  artifactKey: Guid(2187dfea38d0ec941b21a5de44ad319b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_08.png using Guid(2187dfea38d0ec941b21a5de44ad319b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5ead48de35faeb58af26aaf5a4f04f') in 0.010510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_34.png
+  artifactKey: Guid(303bd4e501bf3b543b26c1d77ebd4cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_34.png using Guid(303bd4e501bf3b543b26c1d77ebd4cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4eeb1f02ef0c9be311f9ad1290857e0') in 0.009265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_12.png
+  artifactKey: Guid(dae848050816aa3448e624a82e8725a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_12.png using Guid(dae848050816aa3448e624a82e8725a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51388fb454fe4e6aab7a808680160032') in 0.009561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_45.png
+  artifactKey: Guid(cc9069217ab82eb43a54bf50aeb65435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_45.png using Guid(cc9069217ab82eb43a54bf50aeb65435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd1766265d21b347bab0477650690b3') in 0.009338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_53.png
+  artifactKey: Guid(d8351983ec8841e498fd77084c6e0a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_53.png using Guid(d8351983ec8841e498fd77084c6e0a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6c1a0deea147f924e820429fd63d68') in 0.009866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_15.png
+  artifactKey: Guid(f916cadd54696634689a04393aa3b9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_15.png using Guid(f916cadd54696634689a04393aa3b9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9153251a915d0699b597fffa0c7f452') in 0.009315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_61.png
+  artifactKey: Guid(2e9e2c4d7bff77d448d41aea09a4b82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_61.png using Guid(2e9e2c4d7bff77d448d41aea09a4b82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3611f305bc16cf6ceb45e3e514642b0') in 0.011090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_82.png
+  artifactKey: Guid(f49d64de212f6f8468a056a8e806aae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_82.png using Guid(f49d64de212f6f8468a056a8e806aae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461b5c8c7ee81c7db5be321953d10859') in 0.009716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.699704 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_92.png
+  artifactKey: Guid(8ede838fc9cb9294c89332e40cf004eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_92.png using Guid(8ede838fc9cb9294c89332e40cf004eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f8878d96f232b4b0bb3a284faf0c70') in 0.009399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_94.png
+  artifactKey: Guid(57bea57b0f886e34b941c31c4bb5716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_94.png using Guid(57bea57b0f886e34b941c31c4bb5716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ea100d6d2b072613f7c02528ad908b') in 0.010725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Grafika/Style 1/Blocks/Tile_95.png
+  artifactKey: Guid(115c9b8b171ae4546bdcbfc4fb849c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grafika/Style 1/Blocks/Tile_95.png using Guid(115c9b8b171ae4546bdcbfc4fb849c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4031d8a948555bd32ce09562c0d4f9ca') in 0.012707 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
