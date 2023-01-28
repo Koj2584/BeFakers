@@ -7,17 +7,17 @@ public class Movement : MonoBehaviour
 {
     public float speed = 6f;
     public float jumpForce = 9f;
-    private Rigidbody2D rb;
+    private Rigidbody2D rb;     // ovládání fyziky postavy
 
-    private bool isGrounded;
-    private bool repJump = true;
-    private bool isColl;
-    public Transform groundCheckLeft;
-    public Transform groundCheckRight;
-    public Transform collCheckUp;
-    public Transform collCheckDown;
+    private bool isGrounded;    //zjištìní jestli, je postava na zemi.
+    private bool repJump = true; // omezení poètu skokù postavy, dokud není znovu na zemi.
+    private bool isColl; //zda postava narazila do nìjakého objektu
+    public Transform groundCheckLeft; //k urèení bodu pro kontrolu, zda postava stojí na zemi.
+    public Transform groundCheckRight;//k urèení 2.bodu pro kontrolu, zda postava stojí na zemi.
+    public Transform collCheckUp;  // kontrola nárazu nahoru
+    public Transform collCheckDown; // kontrola nárazu dolu
     public float checkRadius;
-    public LayerMask whatIsGround;
+    public LayerMask whatIsGround; 
 
 
 
