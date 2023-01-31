@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour
     public Transform collCheckUp;  // kontrola nárazu nahoru
     public Transform collCheckDown; // kontrola nárazu dolu
     public float checkRadius;
-    public LayerMask whatIsGround; 
+    public LayerMask whatIsGround;
 
 
 
@@ -47,3 +47,4 @@ public class Movement : MonoBehaviour
             repJump = true;
     }
 }
+
