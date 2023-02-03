@@ -18,6 +18,7 @@ public class Movement : MonoBehaviour
     public Transform collCheckDown; // kontrola nárazu dolu
     public float checkRadius;
     public LayerMask whatIsGround;
+    public Animator animator;
 
 
 
@@ -34,6 +35,17 @@ public class Movement : MonoBehaviour
             Physics2D.OverlapCircle(groundCheckRight.position, checkRadius, whatIsGround);
         isColl = Physics2D.OverlapCircle(collCheckUp.position, checkRadius, whatIsGround) ||
             Physics2D.OverlapCircle(collCheckDown.position, checkRadius, whatIsGround);
+
+        if(isGrounded&& rb.velocity.y < 0.7f&& rb.velocity.y > -0.7f)
+        {
+            animator.SetBool("Up", false);
+            animator.SetBool("Down", false);
+        }
+        else
+        {
+            repJump = true;
+        }
+
         if (isColl)
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
@@ -43,8 +55,16 @@ public class Movement : MonoBehaviour
             repJump = false;
         }
 
-        if (!isGrounded)
-            repJump = true;
+        if (rb.velocity.y > 0.7f)
+        {
+            animator.SetBool("Up", true);
+            animator.SetBool("Down", false);
+        }
+        if (rb.velocity.y < -0.7f)
+        {
+            animator.SetBool("Up", false);
+            animator.SetBool("Down", true);
+        }
     }
 }
 
