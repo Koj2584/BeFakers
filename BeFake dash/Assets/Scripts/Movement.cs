@@ -65,6 +65,16 @@ public class Movement : MonoBehaviour
             animator.SetBool("Up", false);
             animator.SetBool("Down", true);
         }
+
+
+        if (Input.GetKeyDown("r"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 }
 
