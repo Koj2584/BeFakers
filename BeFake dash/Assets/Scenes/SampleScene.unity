@@ -797,6 +797,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 133656825}
+  minulaPozice: 0
 --- !u!50 &133656824
 Rigidbody2D:
   serializedVersion: 4
@@ -3728,7 +3729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &705990529
 Transform:
   m_ObjectHideFlags: 0
@@ -50576,7 +50577,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1560881856
 Transform:
   m_ObjectHideFlags: 0
