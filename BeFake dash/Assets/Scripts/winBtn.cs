@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class winBtn : MonoBehaviour
 {
+
     public void Menu()
     {
         Time.timeScale = 1;
@@ -15,5 +16,11 @@ public class winBtn : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void Tabulka(GameObject ui)
+    {
+        this.gameObject.SetActive(false);
+        ui.SetActive(true);
     }
 }
