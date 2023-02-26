@@ -20,6 +20,9 @@ public class Movement : MonoBehaviour
     public LayerMask whatIsGround;
     public Animator animator;
 
+    public float minulaPozice;
+
+    int i = 0;
 
 
     void Start()
@@ -27,16 +30,30 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
+        if(i == 0)
+            minulaPozice = this.gameObject.transform.position.x;
+        if (i == 2)
+        {
+            isColl = Mathf.Abs(this.gameObject.transform.position.x - minulaPozice) < 0.05;
+
+            if (isColl)
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        if (i == 4)
+            i = 0;
+        else
+            i++;
+
         rb.velocity = new Vector2(speed, rb.velocity.y);
 
         isGrounded = Physics2D.OverlapCircle(groundCheckLeft.position, checkRadius, whatIsGround) ||
             Physics2D.OverlapCircle(groundCheckRight.position, checkRadius, whatIsGround);
-        isColl = Physics2D.OverlapCircle(collCheckUp.position, checkRadius, whatIsGround) ||
-            Physics2D.OverlapCircle(collCheckDown.position, checkRadius, whatIsGround);
+        /*isColl = Physics2D.OverlapCircle(collCheckUp.position, checkRadius, whatIsGround) ||
+            Physics2D.OverlapCircle(collCheckDown.position, checkRadius, whatIsGround);*/
 
-        if(isGrounded&& rb.velocity.y < 0.7f&& rb.velocity.y > -0.7f)
+        if (isGrounded&& rb.velocity.y < 0.7f&& rb.velocity.y > -0.7f)
         {
             animator.SetBool("Up", false);
             animator.SetBool("Down", false);
@@ -45,9 +62,6 @@ public class Movement : MonoBehaviour
         {
             repJump = true;
         }
-
-        if (isColl)
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
         if (Input.GetKey(KeyCode.Space) && isGrounded && repJump)
         {
