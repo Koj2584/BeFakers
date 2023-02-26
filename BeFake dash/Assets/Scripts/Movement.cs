@@ -36,7 +36,7 @@ public class Movement : MonoBehaviour
             minulaPozice = this.gameObject.transform.position.x;
         if (i == 2)
         {
-            isColl = Mathf.Abs(this.gameObject.transform.position.x - minulaPozice) < 0.05;
+            isColl = Mathf.Abs(this.gameObject.transform.position.x - minulaPozice) < 0.01;
 
             if (isColl)
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
